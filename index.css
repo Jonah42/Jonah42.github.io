@@ -1,0 +1,92 @@
+body {
+	margin: 0px;
+	background-color: #474747;
+	width: 100vw;
+	height: 100vh;
+}
+
+.container {
+	width: 100%;
+	height: 100%;
+}
+
+.input-container {
+	width: 100%;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	gap: 1%;
+}
+
+.input-row {
+	width: 100%;
+	height: 8%;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	gap: 1%;
+}
+
+.input-cell-wrapper {
+	width: 8%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: #debcf7;
+	border-radius: 5%;
+	cursor: pointer;
+}
+
+.input-cell {
+	text-align: center;
+	font-family: verdana;
+	font-size: 100%;
+	pointer-events: none;
+}
+
+.image-container {
+	display: none;
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	height: 100vh;
+	width: 100vw;
+	background-color: #474747D0;
+	justify-content: center;
+	align-items: center;
+}
+
+.image-wrapper {
+	height: 90%;
+	width: 90%;
+}
+
+img {
+	height: 100%;
+	width: 100%;
+	object-fit: contain;
+}
+
+.image-text {
+	position: absolute;
+	bottom: 5%;
+	left: 5%;
+	font-family: verdana;
+	font-size: 5vh;
+	color: white;
+}
+
+.close-button {
+	height: 5vh;
+	width: 5vh;
+	position: absolute;
+	right: 5%;
+	top: 5%;
+	background: url('img/close.svg');
+	background-size: contain;
+	cursor: pointer;
+}
