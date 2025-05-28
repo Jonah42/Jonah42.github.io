@@ -3,23 +3,21 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Vocab Recording</title>
 	<link rel="stylesheet" href="index.css">
-	<title>Australian Pictures</title>
 </head>
 <body>
-	<div class="container">
-		<div class="input-container" id="input-container">
-			
-		</div>
-		<div class="image-container" id="image-container">
-			<div class='image-wrapper'>
-				<img src="img/1.jpg" id="image">
-				<div class="close-button" id="close-button"></div>
-				<div class="image-text" id="image-text"></div>
-			</div>
-		</div>
-	</div>
+<div class="wrapper" id="wrapper">
+	<label for="person-select">Choose your name :)</label>
 
-	<script type="module" src="./index.js"></script>
+	<select name="people" id="person-select">
+	    <option value="">--Please choose an option--</option>
+	</select>
+	<div class="word-wrapper" id="word-wrapper"></div>
+</div>
+<div class="play-wrapper" id="play-wrapper">
+	<p class="play-english" id="play-english"></p>
+</div>
+<script type="text/javascript" src="./dict.js"></script>
 </body>
 </html>
