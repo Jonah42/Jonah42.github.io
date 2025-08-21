@@ -1345,7 +1345,7 @@ ids.sort();
 const allocs = [];
 Object.keys(m).forEach(k => {allocs.push([]);});
 for (let i = 0; i < a.length; i++) {
-	allocs[a[i]].push(d[i]);
+	allocs[a[i]].push(d[i+787]);
 }
 
 function showWords(e) {
